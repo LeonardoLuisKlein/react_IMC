@@ -1,16 +1,25 @@
 section{
-  width: 600;
-  height: 700;
+  width: 650px;
+  height: 500px;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
 h1{
   width: 100%;
-  display: flex;
   text-align: center;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  section{
+  width: 100%;
+  }
 }

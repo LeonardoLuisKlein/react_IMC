@@ -1,0 +1,58 @@
+#inputs{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formatCard {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+}
+
+p {
+  display: flex;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #000000;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: #000000;
+  min-width: 364px;
+  text-align: center;
+}
+.formatValue {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  color: #f7b718;
+}
+
+input {
+  -webkit-appearance: none;
+  height: 25px;
+  background: #ffffff;
+  opacity: 0.7;
+  border-radius: 3px;
+  width: 350px;
+  accent-color: #f7b718;
+}
+  input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    background: #f7b718;
+    border-radius: 50%;
+    cursor: pointer;
+  }

@@ -1,12 +1,13 @@
 import './App.css'
-import '../micro/Buttons/Buttons'
+
+import {Inputs} from './Inputs'
 
 function App() {
 
   return (
     <section>
       <h1>Calcule seu IMC</h1>
-      <Buttons clickButton="calcularIMC"/>
+      <Inputs />
     </section>
   )
 }
